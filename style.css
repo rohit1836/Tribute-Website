@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    font-family: "open sans", "roboto mono", "poppins",'sans-serif', 'times new roman';
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+.main-container {
+    background-color: bisque;
+    border: 7px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    /* text-align: center; */
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.head{
+    margin: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.head h3 {
+    text-align: end;
+}
+
+.image{
+    background-size: cover;
+}
+
+.image img{
+    height: 250px;
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+.about p{
+    font-size: large;
+    color:black;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.biographies ul{
+    font-size: large;
+    letter-spacing: 1px;
+}
+
+.footer{
+    background-color:blanchedalmond;
+    display: flex;
+    justify-content: flex-end;
+}
+
